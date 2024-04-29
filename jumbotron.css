@@ -1,0 +1,47 @@
+.jumbotron {
+    border: 2px solid red;
+    position: relative;
+    top: 55px;
+    left: 0;
+    right: 0;
+    height: auto;
+    z-index: -1;
+    background-image: url('assets/jumbotron-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.jumbotron-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jumbotron-text h1, h2{
+    font-family: "Dancing Script", cursive;
+    color: #212d40
+}
+
+.jumbotron-text h1{
+    font-size: 30px;
+    margin: 25px 0;
+}
+
+.jumbotron-text h2{
+    padding: 20px 0;
+    border-bottom: 10px solid #2A6F9D;
+}
+
+.jumbotron-text span{
+    color: #2A6F9D;
+}
+
+.jumbotron-text p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+}
+/* .blue-shape {
+    height: 10px;
+    background-color:#212d40 ;
+} */

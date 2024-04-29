@@ -1,0 +1,57 @@
+aside{
+    max-width: 15%;
+    max-height: 360px;
+    border: 2px solid blue;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px slategray;
+    position: relative;
+    left: 20px;
+    top: 80px;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.aside-container{
+    margin: 20% auto;
+    /* border: 2px solid green; */
+}
+
+.profile-image h3, img, .button-container{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    /* padding: 10px 0; */
+}
+
+.profile-image h3{
+    font-size: 25px;
+}
+
+.profile-photo{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.blue-shape-1,
+.blue-shape-2{
+    background-color: #2A6F9D;
+    height: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.blue-shape-1{
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.blue-shape-2{
+    border-radius: 0px 0px 10px 10px;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    margin: 10px 3px 0;
+}
